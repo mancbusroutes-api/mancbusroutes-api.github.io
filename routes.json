@@ -487,19 +487,262 @@
         },
         {
             "81": {
-                "operator":"Diamond Bus North West",
+                "operator":"First Greater Manchester",
                 "dest":"Oldham - Picadilly Gardens via Moston, White Gate",
                 "bus_fare":{"child":1,"adult":2},
-                "twitter":"@DiamondBusNW",
+                "twitter":"@FirstManchester",
                 "circular":"No"
             }
         },
         {
             "82": {
-                "operator":"Diamond Bus North West",
-                "dest":"Pendleton - Stretford via Old Trafford",
+                "operator":"First Greater Manchester",
+                "dest":"Oldham - Sholver via Watersheddings",
                 "bus_fare":{"child":1,"adult":2},
-                "twitter":"@DiamondBusNW",
+                "twitter":"@FirstManchester",
+                "circular":"No"
+            }
+        },
+        {
+            "83": {
+                "operator":"First Greater Manchester",
+                "dest":"Piccadilly Gardens - Sholver via Failsworth",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@FirstManchester",
+                "circular":"No"
+            }
+        },
+        {
+            "84": {
+                "operator":"First Greater Manchester",
+                "dest":"Uppermill - Piccadilly Gardens via Oldham",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@FirstManchester",
+                "circular":"No"
+            }
+        },
+        {
+            "85": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Chorlton - Piccadilly Gardens via Hulme",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "85A": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Arrowfield Estate - Piccadilly Gardens via Chortlon",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "86": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Sale - Piccadilly Gardens via Stretford, Hulme",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "88": {
+                "operator":"D&G Bus",
+                "dest":"Altrincham - Macclesfield via Wilmslow, Henbury",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"None",
+                "circular":"No"
+            }
+        },
+        {
+            "90": {
+                "operator":"Go North West",
+                "dest":"Simister - Heaton Park",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"Yes"
+            }
+        },
+        {
+            "93": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Carr Clough via Lower Broughton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "94": {
+                "operator":"Go North West",
+                "dest":"Higher Crumpsall - Bury via Prestwich, Hollins",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "95": {
+                "operator":"Go North West",
+                "dest":"Pendleton - Bury via Whitefield",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "97": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehull - Bury via Lower Broughton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "98": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Bury via Whitefield, Radcliffe, Elton",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "100": {
+                "operator":"Go North West",
+                "dest":"Manchester Shudehill - Warrington via Salford, Trafford Centre",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@gnwbus",
+                "circular":"No"
+            }
+        },
+        {
+            "101": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wythenshawe - Piccadilly Gardens via Moss Side, Baguley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "102": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Wythenshawe - Piccadilly Gardens via Moss Side, Withington",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "103": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Manchester Airport - Piccadilly Gardens via Wythenshawe",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "111": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Chorlton - Piccadilly Gardens via Moss Side & Preston City Centre - Wigan",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "112": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Boarshaw - Piccadilly Gardens via Middleton, Greengate",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },       
+        {
+            "113": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Middleton - Piccadilly Gardens via Moston, Greengate",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "114": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Albert Square - Boarshaw via Middleton, Greengate",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "115": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Middleton - Harpurhey via Higher Blackley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "116": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Harpurhey - Middleton via Higher Blackley",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"Yes"
+            }
+        },
+        {
+            "117": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Greengate - Piccadilly Gardens via Moston",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "118": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Higher Crumpsall - Higher Blackley via Harpurhey",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "119": {
+                "operator":"Stagecoach Manchester",
+                "dest":"Higher Blackley - Piccadilly Gardens via Charlestown",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "125": {
+                "operator":"Stotts Tours & Stotts Tours & Stagecoach Manchester",
+                "dest":"Heywood - Rhodes via Middleton & Oldham Mumps - Mottram via Stalybridge & Bolton - Sharoe Green via Adlington",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"None & @StagecoachGM",
+                "circular":"No"
+            }
+        },
+        {
+            "126": {
+                "operator":"Diamond Bus North West & Rosso",
+                "dest":"Trafford Centre - Leigh via Boothstown & Haughton Green - Oldham Mumps via Ashton-under-Lyne",
+                "bus_fare":{"child":1,"adult":2},
+                "twitter":"@DiamondBusNW & @Rossobus",
                 "circular":"No"
             }
         }
