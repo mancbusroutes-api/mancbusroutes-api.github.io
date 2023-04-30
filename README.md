@@ -35,3 +35,37 @@ route=str(input('Route: '))
 data=busstuffs.text(route)
 print(data)
 ```
+
+You can also include filters in the code too!
+Cant edit the URL though.
+For example:
+```py
+import requests
+class busstuffs():
+    def get_info(route):
+        route=str(route)
+        data=requests.get('https://mancbusroutes-api.github.io/routes.json').json()
+        for key, value in data.items():
+            if key == 'routes':
+                for i in value:
+                    for key, busData in i.items():
+                        if key==route:
+                            if busData["operator"] == 'Stagecoach Manchester': #This is the filter
+                                return ('\n'.join([
+                                    '>-------------------------------<',
+                                    f'Route: {route}',
+                                    f'Route Dest: {busData["dest"]}',
+                                    f'Operator: {busData["operator"]}',
+                                    f'Fare - Child: {busData["bus_fare"]["child"]}, Adult: {busData["bus_fare"]["adult"]}',
+                                    f'Twitter: {busData["twitter"]}',
+                                    f'Is Circular?: {busData["circular"]}',
+                                    '>-------------------------------<'
+                                ]))
+        return f"No information found for route '{route}'"
+    def text(route):
+        return busstuffs.get_info(route)
+
+route=str(input('Route: '))                            
+data=busstuffs.text(route)
+print(data)
+```
