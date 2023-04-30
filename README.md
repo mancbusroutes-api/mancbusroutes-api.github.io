@@ -1,5 +1,5 @@
 # mancbusroutes-api.github.io
-##Introduction
+## Introduction
 Welcome to the Manchester Bus Routes API!
 
 Here you can track bus routes': Destinations, Operators, Is Circular?, Twitter, Bus Fares
