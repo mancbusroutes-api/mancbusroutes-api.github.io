@@ -35,9 +35,10 @@ route=str(input('Route: '))
 data=busstuffs.text(route)
 print(data)
 ```
-
 You can also include filters in the code too!
+
 Cant edit the URL though.
+
 For example:
 ```py
 import requests
